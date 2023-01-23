@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+* {
+    margin: 0%;
+    padding: 0%;
+    border: 0% ;
+    font-size: 100%;
+
+}
+
+.header {
+    display: flex;
+    align-items: center   ;
+    justify-content: space-between;
+    height: 9%;
+    background-color: black;
+    background-repeat: none;
+    position: fixed ;
+    width: 500%;
+    text-decoration: none;
+    font-size: 22px;
+    
+}
+
+.hover:hover {
+    background: #df0a0a;
+
+    
+}
+
+ul .banner{
+    justify-content: ;
+}
+.banner {
+    justify-content: right  ;
+}
+
+link img {
+    border-radius: 10px;
+}
+.formulario {
+    background-color: black;
+    color: #FFF;
+    font-family: 'Bebas Neue';
+    margin-top: 70px;
+
+}
+.div p h3 {
+    justify-content: top;
+}
+
+.fondo {
+    background-color: #df0a0a;
+    justify-content: center;
+    align-items: center;
+    display: block;
+    background-size: cover;
+}
+
+.img {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    font-weight: 600px;
+    align-items: center;
+
+}
+h3 {
+    grid-row: auto;
+}
+
+.navbar ul {
+    justify-content: left;
+    align-content: left ;
+}
+
+.navbar li {
+    display: inline;
+    text-decoration: none;
+    justify-content: left;
+    background-position: left;
+    
+    
+
+    width: 100%;
+    height: 100px;
+    margin: 30px;
+    padding: 10px ;
+    }
+
+
+.navbar a {
+
+    padding: 10px 10px;
+    color: #FFF; 
+    justify-content: center;
+    align-items: center;
+    font-family: 'Bebas Neue';
+    text-decoration: none;
+}
+
+h1, h3 {
+    font-family: 'Bebas Neue';
+}
+
+img {
+    display: flex;
+    position: center;
+    height: 100%;
+
+}
+
+.section {
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+    align-content: flex-start;
+
+}
+
+.piepagina {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    margin: 10px;
+    padding: 10px;
+    position: center   ;
+
+}
+
+.titulo {
+    justify-content: center;
+    font-family: 'Bebas Neue';
+    padding: 10px;
+    width: 5px 100px;
+    color: #FFF;
+    
+
+}
+.texto-historia p {
+    justify-content:space-around;
+    align-content: center;
+    color: #FFF;
+    margin: 10px;
+    padding: 300px;
+    font-family: 'Courgette', cursive;
+}
+
+.images {
+    display: flex;
+    position: center;
+    height: 700px;
+    justify-content: center;
+    align-items: stretch;
+    margin: 10px;
+    padding: 20px;
+}
+
+.grid {
+    grid-template-columns: repeat(2, 300px);
+}

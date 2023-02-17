@@ -385,7 +385,6 @@ img {
         }
     
     .navbar a {
-    
         padding: 10px 10px;
         color: #FFF; 
         justify-content: center;
@@ -532,10 +531,10 @@ img {
     align-items: center;
 }}
 
-@media only screen and (max-width:) {
+@media only screen and (min-width: 320px) and (max-width: 576px) {
     
     .header {
-    height: 40px;
+    height: 50px;
     font-size: 6px;
     }
 
@@ -551,7 +550,6 @@ img {
         }
     
     .navbar a {
-    
         padding: 10px 10px;
         color: #FFF; 
         justify-content: center;
@@ -656,7 +654,7 @@ img {
     display: grid;
     padding: 10px 10px;
     margin: 10px;
-    grid-template-columns: repeat(1, 370px);
+    grid-template-columns: repeat(1, 100%);
 }
 
 .texto-historia p {
@@ -664,7 +662,7 @@ img {
     padding: 5px;
 }
 .nosotros .image-historia{
-    width: 370px;
+    width: 100%;
     display: flex;
 }
 .nosotros .texto-historia p{
@@ -676,24 +674,7 @@ img {
     gap: 10px;
     padding: 10px 10px;
     margin: 10px;
-    grid-template-columns: repeat(1, 370px);
-    justify-content: center;
-    align-items: center;
-}
-
-.nosotros_contenedor .nosotros-1{
-    border-radius: 25px;
-    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
-    margin: 10px;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-}
-
-.nosotros_contenedor .formulario{
-    border-radius: 5px;
-    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
-    margin: 10px;
+    grid-template-columns: repeat(1, 100%);
     justify-content: center;
     align-items: center;
 }

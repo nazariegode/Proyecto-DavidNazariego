@@ -1,0 +1,106 @@
+@import '../style.scss'
+
+
+.inicio {
+    background-image: url(../assets/sushi-tigger2.JPG);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.inicio__contenedor {
+    padding: 200px 50px;
+    color: #fff;
+    width: 60%;
+    gap: 10px;
+}
+
+.inicio__contenedor p {
+    font-family: 'Bebas Neue';
+    font-size: 30px;
+    padding-right: 150px;
+    margin: 5px 0;
+}
+
+.inicio__titulo {
+    font-family: 'Bebas Neue';
+    font-size: 80px;
+    color: #df0a0a;
+}
+
+link img {
+    border-radius: 10px;
+}
+.formulario {
+    color: #FFF;
+    font-family: 'Bebas Neue';
+    margin-top: 70px;
+
+}
+.div p h3 {
+    justify-content: top;
+}
+
+h3 {
+    grid-row: auto;
+}
+
+.navbar ul {
+    display: flex;
+    margin: 10px;
+    font-size: 30px;
+}
+
+.navbar li {
+    display: inline;
+    text-decoration: none;
+    width: 100%;
+    height: 40px;
+    margin: 20px;
+    padding: 5px;
+    }
+
+.navbar a {
+    padding: 10px 10px;
+    color: #FFF; 
+    justify-content: center;
+    align-items: center;
+    font-family: 'Bebas Neue';
+    text-decoration: none;
+}
+
+h1, h3 {
+    font-family: 'Bebas Neue';
+}
+.fondo {
+    background-image: url(../assets/fondo-2.jpeg);    
+    justify-content: center;
+    align-items: center;
+    display: block;
+    background-size: cover;
+}
+
+.img {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    font-weight: 600px;
+    align-items: center;
+}
+img {
+    display: flex;
+    position: center;
+    height: 100%;
+}
+
+.section {
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+    align-content: center;
+}

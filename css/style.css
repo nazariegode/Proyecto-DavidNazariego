@@ -283,7 +283,6 @@ img {
 }
 
 .pie-pagina .grupo-1 {
-    width: 100%;
     max-width: 1200px;
     margin: auto;
     display: grid;
@@ -366,24 +365,42 @@ img {
     margin: 20px;
 }
 
-@media only screen and (max-width:500px) {
+@media only screen and (max-width:576px) {
     
     .header {
-    height: 50px;
-    font-size: 10px;
+    height: 40px;
+    font-size: 6px;
     }
 
-    .inicio {
-        height: 600px;
+    .navbar ul {
+        display: flex;
+        font-size: 25px;
     }
+    
+    .navbar li {
+        height: 30px;
+        margin: 15px;
+        padding: 5px;
+        }
+    
+    .navbar a {
+    
+        padding: 10px 10px;
+        color: #FFF; 
+        justify-content: center;
+        align-items: center;
+        font-family: 'Bebas Neue';
+        text-decoration: none;
+    }
+
     .inicio__contenedor {
-        padding: 40px 15px;
+        padding: 10px 5px;
         gap: 0px;
     }
     
     .inicio__contenedor p {
         font-size: 20px;
-        padding-right: 50px;
+        padding-right: 60px;
         margin: 10px 0;
     }
     
@@ -399,7 +416,7 @@ img {
 }
 
 .pie-pagina .grupo-1 {
-    grid-template-columns: repeat(1, 450px);
+    grid-template-columns: repeat(1, 380px);
     grid-gap: 20px;
     padding: 20px 5px;
     justify-content: center;
@@ -424,20 +441,23 @@ img {
 }
 
 .titulo-entrada{
-    font-size: 20px;
+    font-size: 18px;
     justify-content: center;
     align-items: center;
 }
 
 .container {
     grid-template-columns: repeat(2, 50%);
+    gap: 10px;
+    margin: 10px;
+    padding: 10px;
     }
 
 .container .card {
-    width: 200px;
+    width: 180px;
     height: 300px;
     border-radius: 6px;
-    margin: 20px;
+    margin: 0px;
 }
 
 .container .card:hover {
@@ -458,18 +478,18 @@ img {
 .container .card p{
     padding: 0 1rem;
     font-size: 10px;
-    margin: 10px;
+    margin: 3px;
 }
 
 .container .card a {
-    font-size: 15px;
+    font-size: 12px;
 }
 
 .nosotros {
     display: grid;
-    padding: 15px 15px;
+    padding: 10px 10px;
     margin: 10px;
-    grid-template-columns: repeat(1, 430px);
+    grid-template-columns: repeat(1, 370px);
 }
 
 .texto-historia p {
@@ -477,7 +497,8 @@ img {
     padding: 5px;
 }
 .nosotros .image-historia{
-    width: 450px;
+    width: 370px;
+    display: flex;
 }
 .nosotros .texto-historia p{
     font-size: 24px;
@@ -486,9 +507,9 @@ img {
 .nosotros_contenedor {
     display: grid;
     gap: 10px;
-    padding: 15px 15px;
+    padding: 10px 10px;
     margin: 10px;
-    grid-template-columns: repeat(1, 800px);
+    grid-template-columns: repeat(1, 370px);
     justify-content: center;
     align-items: center;
 }

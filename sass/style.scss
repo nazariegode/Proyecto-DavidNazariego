@@ -1,9 +1,10 @@
 @import './base/vars';
 @import './base/reset';
-
+@import './base/mixin';
 
 @import './components/btn';
 
 @import './layout/index';
 @import './layout/productos';
 @import './layout/nosotros';
+@import './layout/medias';

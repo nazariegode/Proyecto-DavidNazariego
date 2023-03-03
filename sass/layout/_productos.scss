@@ -5,7 +5,6 @@
     max-height: 100%;
     padding: 2px 18px;
     display: grid;
-    grid-template-columns: repeat(4, 400px);
     justify-items: center;
     align-items: center;
     }
@@ -24,7 +23,7 @@
     text-align: center;
     transition: all 0.25 ;
     background-color: white ;
-    grid-template-columns: repeat(5, 400px);
+    grid-template-columns: repeat(4, 330px);
 }
 
 .container .card:hover {

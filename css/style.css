@@ -330,6 +330,7 @@ img {
     height: 30px;
     margin: 15px;
     padding: 5px; }
+
   .navbar a {
     padding: 10px 10px;
     color: #FFF;
@@ -337,23 +338,28 @@ img {
     align-items: center;
     font-family: 'Bebas Neue';
     text-decoration: none; }
+
   .inicio__contenedor {
     padding: 10px 5px;
-    gap: 0px; }
+    gap: 10px; }
+
   .inicio__contenedor p {
-    font-size: 20px;
-    padding-right: 60px;
+    font-size: 15px;
+    padding-right: 40px;
     margin: 10px; }
+
   .inicio__titulo {
-    font-size: 45px;
+    font-size: 40px;
     margin: 10px; }
+
   .btn {
     width: 80px;
     padding: 10px;
     margin-bottom: 10px;
-    font-size: 15px; }
+    font-size: 14px; }
+
   .pie-pagina .grupo-1 {
-    grid-template-columns: repeat(1, 380px);
+    grid-template-columns: repeat(1, 350px);
     grid-gap: 20px;
     padding: 20px 5px;
     justify-content: center; }
@@ -372,28 +378,29 @@ img {
     font-size: 18px;
     justify-content: center;
     align-items: center; }
+
   .container {
     grid-template-columns: repeat(2, 50%);
-    gap: 10px;
-    margin: 10px;
-    padding: 10px; }
+    gap: 3px;
+    padding: 3px; }
+
   .container .card {
     width: 180px;
     height: 300px;
-    border-radius: 6px;
-    margin: 0px; }
+    border-radius: 5px;
+    margin: 3px; }
   .container .card:hover {
     transform: translateY(-5px);
     box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5); }
   .container .card img {
-    width: 210px;
+    width: 180px;
     height: 150px; }
   .container .card h4 {
-    font-size: 12px;
+    font-size: 10px;
     margin: 5px; }
   .container .card p {
     padding: 0 1rem;
-    font-size: 10px;
+    font-size: 9px;
     margin: 3px; }
   .container .card a {
     font-size: 12px; }
@@ -409,7 +416,7 @@ img {
     width: 100%;
     display: flex; }
   .nosotros .texto-historia p {
-    font-size: 24px; }
+    font-size: 20px; }
   .nosotros_contenedor {
     display: grid;
     gap: 10px;

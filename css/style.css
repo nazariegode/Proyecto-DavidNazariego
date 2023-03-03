@@ -330,7 +330,6 @@ img {
     height: 30px;
     margin: 15px;
     padding: 5px; }
-
   .navbar a {
     padding: 10px 10px;
     color: #FFF;
@@ -338,26 +337,21 @@ img {
     align-items: center;
     font-family: 'Bebas Neue';
     text-decoration: none; }
-
   .inicio__contenedor {
     padding: 10px 5px;
     gap: 10px; }
-
   .inicio__contenedor p {
     font-size: 15px;
     padding-right: 40px;
     margin: 10px; }
-
   .inicio__titulo {
     font-size: 40px;
     margin: 10px; }
-
   .btn {
     width: 80px;
     padding: 10px;
     margin-bottom: 10px;
     font-size: 14px; }
-
   .pie-pagina .grupo-1 {
     grid-template-columns: repeat(1, 350px);
     grid-gap: 20px;
@@ -378,12 +372,10 @@ img {
     font-size: 18px;
     justify-content: center;
     align-items: center; }
-
   .container {
     grid-template-columns: repeat(2, 50%);
     gap: 3px;
     padding: 3px; }
-
   .container .card {
     width: 180px;
     height: 300px;

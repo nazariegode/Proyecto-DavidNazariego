@@ -167,9 +167,9 @@ img {
 .container {
   min-height: 100vh;
   max-height: 100%;
-  padding: 2px 18px;
+  padding: 2px 10px;
   display: grid;
-  grid-template-columns: repeat(4, 400px);
+  grid-template-columns: repeat(4, 320px);
   justify-items: center;
   align-items: center; }
 
@@ -182,8 +182,7 @@ img {
   margin: 20px;
   text-align: center;
   transition: all 0.25;
-  background-color: white;
-  grid-template-columns: repeat(5, 300px); }
+  background-color: white; }
 
 .container .card:hover {
   transform: translateY(-15px);
@@ -348,9 +347,10 @@ img {
     font-size: 40px;
     margin: 10px; }
   .btn {
-    width: 80px;
+    width: 100px;
     padding: 10px;
     margin-bottom: 10px;
+    margin: 05px;
     font-size: 14px; }
   .pie-pagina .grupo-1 {
     grid-template-columns: repeat(1, 350px);
